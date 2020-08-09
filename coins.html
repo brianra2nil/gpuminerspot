@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <style>
-            .nav {
-            background-color: aliceblue;    
-            }
-        </style>
+    <style>
+        .nav {
+            background-color: aliceblue;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,24 +21,112 @@
 
     <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" href="index.html">GpuMinerSpot.com</a>
+            <a class="nav-link active" href="index.html">GpuMinerSpot.com</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="wallets.html">Wallets and Exchanges</a>
+            <a class="nav-link " href="wallets.html">Wallets and Exchanges</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="build.html">Build a Rig</a>
+            <a class="nav-link" href="build.html">Build a Rig</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="coins.html">Coins to Mine</a>
-          </li>
-          <li class="nav-item">
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="gpu.html">GPU Hashrates</a>
-          </li>
-          <li class="nav-item">
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="resources.html">Resources</a>
-          </li>
-        </ul>
+        </li>
+        <li class="nav-item">
+            <h6 id="date" class="nav-link"></h6>
+        </li>
+    </ul>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-6">GpuMinerSpot.com</h1>
+
+
+
+            <p class="lead">This is a resource site for cryptocurrency mining with GPUs like the NVIDIA RTX 2070. Anyone
+                with a home computer and a GPU can start to mine crypto currency. We will show you how to use wallets
+                and exchanges for trading and cashing out to USD, how to build a mining "rig", and how to use the
+                software to mine. The data we provide is based on real hardware that we own and software that we use. We
+                are in no way giving financial advice, nor are we sponsored by or work for or represent any of the
+                products we list
+                or talk about. We are not responsible for any damages, loss, taxes owed, data, funds or coins lost if
+                you
+                decide to use our resources. Do your own research and calculate your own personal risk tolerance.
+                We may post affiliate links or referral links to help us fund this site and project.
+                We also accept cryptocurrency donations. Our addresses are at the bottom of the page.
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/116883420_10163953490580024_4924280563213430889_n.jpg?_nc_cat=107&_nc_sid=0be424&_nc_ohc=70VsEp6YxxEAX8WCjCO&_nc_ht=scontent-lax3-2.xx&oh=7a318c8f64ce901525a54e15cc55a012&oe=5F546806"
+                            width="400" height="400" alt="rigpic1">
+                    </div>
+                    <div class="col-sm">
+                        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/116892748_10163953490265024_6864622736776181791_n.jpg?_nc_cat=103&_nc_sid=0be424&_nc_ohc=0RLnysVvtRYAX_3DzKY&_nc_oc=AQnElV2pnEOcUKp-L60LNmOC-uf9KuEsUcL1aJke1mgLnofcvAedz_RV__dPZSgt4GQG5pUrk8sgc_l5o02bJsB4&_nc_ht=scontent-lax3-1.xx&oh=63ff0a2a051d941375542199d72ff7f8&oe=5F572753"
+                            width="400" height="400" alt="rigpic2">
+                    </div>
+                    <div class="col-sm">
+                        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/117197413_10163953489885024_559377391121898248_n.jpg?_nc_cat=101&_nc_sid=0be424&_nc_ohc=6Shb55_4D7gAX8g-9TM&_nc_ht=scontent-lax3-1.xx&oh=5b100f93e929c252f559407d1fe6b604&oe=5F54A368"
+                            width="400" height="400" alt="rigpic2">
+                    </div>
+                    <div class="col-sm">
+                        <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/117388759_10163953534710024_4615736097347657035_n.jpg?_nc_cat=107&_nc_sid=0be424&_nc_ohc=SIIyMdrL8vQAX8i8XbR&_nc_ht=scontent-lax3-2.xx&oh=fef8927f62f17a0957eb20a6c6536ae4&oe=5F54BBE6"
+                            width="400" height="400" alt="rigpic2">
+                    </div>
+                </div>
+            </div>
+
+
+            </p>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+                <coingecko-coin-ticker-widget coin-id="bitcoin" currency="usd" locale="en" width="0.5">
+                </coingecko-coin-ticker-widget>
+            </div>
+            <div class="col-sm">
+                <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+                <coingecko-coin-ticker-widget coin-id="ethereum" currency="usd" locale="en" width="0.5">
+                </coingecko-coin-ticker-widget>
+            </div>
+            <div class="col-sm">
+                <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+                <coingecko-coin-ticker-widget coin-id="nimiq-2" currency="usd" locale="en" width="0.5">
+                </coingecko-coin-ticker-widget>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+                <coingecko-coin-ticker-widget coin-id="ravencoin" currency="usd" locale="en" width="0.5">
+                </coingecko-coin-ticker-widget>
+            </div>
+            <div class="col-sm">
+                <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+                <coingecko-coin-ticker-widget coin-id="chainlink" currency="usd" locale="en" width="0.5">
+                </coingecko-coin-ticker-widget>
+            </div>
+            <div class="col-sm">
+                <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+                <coingecko-coin-ticker-widget coin-id="zcoin" currency="usd" locale="en" width="0.5">
+                </coingecko-coin-ticker-widget>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -51,13 +139,12 @@
 
 
 
+    <Footer class="nav justify-content-center">
 
-        <Footer class="nav justify-content-center">
-           
-            <a class="nav-link"href="mailto:contact@gpuminerspot.com">Email:  contact@gpumierspot.com</a><br>
-            
-            <p class="container-fluid nav justify-content-center"> &#169; 2020 - GpuMinerSpot.com</p> 
-        </Footer>
+        <a class="nav-link" href="mailto:contact@gpuminerspot.com">Email: contact@gpumierspot.com</a><br>
+
+        <p class="container-fluid nav justify-content-center"> &#169; 2020 - GpuMinerSpot.com</p>
+    </Footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -69,7 +156,58 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script>
+
+
+
+
+
+        let update = function () {
+            document.getElementById('date')
+                .innerHTML = moment().format('MMMM Do YYYY h:mm:ss a');
+        }
+        setInterval(update, 1000);
+
+
+// function pricebtc(pricebtc) {
+//         axios.get(`https://api.coingecko.com/api/v3/coins/bitcoin/tickers`)
+//             .then(res => {
+//                 console.log(res.data.tickers[0].last)
+//             let price = res.data.tickers[0].last
+//             document.getElementById('bitcoin').innerHTML = `
+//             <p>${price}</p>
+//             `
+
+
+//             })
+//             setInterval(pricebtc, 60000);
+// }
+
+// pricebtc(pricebtc)
+
+// function priceeth(priceeth) {
+//         axios.get(`https://api.coingecko.com/api/v3/coins/ethereum/tickers`)
+//             .then(res => {
+//                 console.log(res.data.tickers[0].last)
+//             let price = res.data.tickers[0].last
+//             document.getElementById('ethereum').innerHTML = `
+//             <p>${price}</p>
+//             `
+
+
+//             })
+//             setInterval(priceeth, 60000);
+// }
+
+// priceeth(priceeth)
+
+
+
+    </script>
+
 </body>
 
 </html>
