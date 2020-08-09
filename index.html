@@ -111,7 +111,10 @@
 
 
             <p class="lead">Technically, yes you can. Is it worth it? No. The days of mining bitcoin with a home
-                computer's CPU or GPU are long gone due to the massive difficulty increase and network difficulty.
+                computer's CPU or GPU are long gone due to the massive difficulty increase and network difficulty. These
+                days you need special hardware called ASICs to mine Bitcoin directly. ASICs are very expensive, very
+                loud, produce a lot more heat, and use a lot more electricity. ASICs are typically not geared towards a
+                home mining operation.
             <p>
                 As the price of Bitcoin rose from mere pennies in 2010 to a high of nearly $20,000 in December 2017, so
                 too has the mining difficulty with many people jumping on board. Nowadays, the general practice is
@@ -156,8 +159,8 @@
             <p class="lead">This depends on a lot of different factors, but the biggest one is your electric cost. A
                 popular site <a href="https://whattomine.com/" add target="_blank">whattomine.com</a>, let's you input
                 the amount and type
-                of GPUs that you own and your electricity cost and shows your profit after electricity cost. 
-                <p>
+                of GPUs that you own and your electricity cost and shows your profit after electricity cost.
+            <p>
                 Remember,
                 this does not factor in the cost of the hardware.
                 The short answer, is this is not a get rich quick process. You will invest in the hardware, electricity
@@ -170,7 +173,8 @@
                 not how it works.
                 Just like anything else you invest in, evaluate your cost and tolerance to risk. Can you put a PC
                 together and troubleshoot software and hardware?
-                Are you willing to spend the time researching a new coin project and creating a new wallet for every new coin, and signing
+                Are you willing to spend the time researching a new coin project and creating a new wallet for every new
+                coin, and signing
                 up for a new exchange?
                 Are you financially able to afford the parts, and the electricity cost, out of pocket?
                 Do you have already have a gaming desktop PC with one or two GPU's that you just want to mine a few
@@ -186,7 +190,8 @@
             </p>
             <p>
                 Bottom line, GPU mining CAN be profitable, depending on your investment of time and money, as well as
-                your electricity cost. It can also be very expensive as well. Typical GPUs cost between $300 to $1,200 each. A
+                your electricity cost. It can also be very expensive as well. Typical GPUs cost between $300 to $1,200
+                each. A
                 rig typically has 6 GPUs, you do the math. Are you willing to invest that kind of money with no
                 guarantee that you will make a profit?
             </p>
@@ -196,18 +201,25 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Donations</h1>
-          <p class="lead">  We appreciate any Donations.
-            All proceeds will go to fund the site and GPU miner projects so we can share the information with all GPU mining
-            enthusiasts.</p>
-            <p>Bitcoin Address: <br> <input type="text" size="55px" value="3BnTsMRrBBb8kNe1r5FCQvJcVupwTuHRkQ" id="btcaddress"> <button onclick="btcmyFunction()">Copy to clipboard</button></p>
-            <p>Ethereum Address: <br> <input type="text" size="55px" value="0x70bc8950a491C08d21C76A720511B99AC754358a" id="ethaddress"> <button onclick="ethmyFunction()">Copy to clipboard</button></p>
-            <p>Nimiq Address: <br> <input type="text" size="55px" value="NQ84 F9QA 1DHV LUCH NYP4 T90F GVVP AXYE P3BV" id="nimaddress"> <button onclick="nimmyFunction()">Copy to clipboard</button></p>
-            <p>Ravencoin Address: <br> <input type="text" size="55px" value="RM6C1LK567t9rePvVRbmPNFi5QoHULSX7q" id="rvnaddress"> <button onclick="rvnmyFunction()">Copy to clipboard</button></p>
-            <p>ChainLink Address: <br> <input type="text" size="55px" value="0x54e5143E236bE83813f6f5922F72021EF358e1A3" id="linkaddress"> <button onclick="linkmyFunction()">Copy to clipboard</button></p>
-            <p>Zcoin Address: <br> <input type="text" size="55px" value="a7ZjYLKcC65WLKWGUoppZfu42C3TDe7RJH" id="xzcaddress"> <button onclick="xzcmyFunction()">Copy to clipboard</button></p>
+            <h1 class="display-4">Donations</h1>
+            <p class="lead"> We appreciate any Donations.
+                All proceeds will go to fund the site and GPU miner projects so we can share the information with all
+                GPU mining
+                enthusiasts.</p>
+            <p>Bitcoin Address: <br> <input type="text" size="55px" value="3BnTsMRrBBb8kNe1r5FCQvJcVupwTuHRkQ"
+                    id="btcaddress"> <button onclick="btcmyFunction()">Copy to clipboard</button></p>
+            <p>Ethereum Address: <br> <input type="text" size="55px" value="0x70bc8950a491C08d21C76A720511B99AC754358a"
+                    id="ethaddress"> <button onclick="ethmyFunction()">Copy to clipboard</button></p>
+            <p>Nimiq Address: <br> <input type="text" size="55px" value="NQ84 F9QA 1DHV LUCH NYP4 T90F GVVP AXYE P3BV"
+                    id="nimaddress"> <button onclick="nimmyFunction()">Copy to clipboard</button></p>
+            <p>Ravencoin Address: <br> <input type="text" size="55px" value="RM6C1LK567t9rePvVRbmPNFi5QoHULSX7q"
+                    id="rvnaddress"> <button onclick="rvnmyFunction()">Copy to clipboard</button></p>
+            <p>ChainLink Address: <br> <input type="text" size="55px" value="0x54e5143E236bE83813f6f5922F72021EF358e1A3"
+                    id="linkaddress"> <button onclick="linkmyFunction()">Copy to clipboard</button></p>
+            <p>Zcoin Address: <br> <input type="text" size="55px" value="a7ZjYLKcC65WLKWGUoppZfu42C3TDe7RJH"
+                    id="xzcaddress"> <button onclick="xzcmyFunction()">Copy to clipboard</button></p>
         </div>
-      </div>
+    </div>
 
     <div class="container">
         <div class="row">
@@ -294,128 +306,128 @@
         setInterval(update, 1000);
 
 
-// function pricebtc(pricebtc) {
-//         axios.get(`https://api.coingecko.com/api/v3/coins/bitcoin/tickers`)
-//             .then(res => {
-//                 console.log(res.data.tickers[0].last)
-//             let price = res.data.tickers[0].last
-//             document.getElementById('bitcoin').innerHTML = `
-//             <p>${price}</p>
-//             `
+        // function pricebtc(pricebtc) {
+        //         axios.get(`https://api.coingecko.com/api/v3/coins/bitcoin/tickers`)
+        //             .then(res => {
+        //                 console.log(res.data.tickers[0].last)
+        //             let price = res.data.tickers[0].last
+        //             document.getElementById('bitcoin').innerHTML = `
+        //             <p>${price}</p>
+        //             `
 
 
-//             })
-//             setInterval(pricebtc, 60000);
-// }
+        //             })
+        //             setInterval(pricebtc, 60000);
+        // }
 
-// pricebtc(pricebtc)
+        // pricebtc(pricebtc)
 
-// function priceeth(priceeth) {
-//         axios.get(`https://api.coingecko.com/api/v3/coins/ethereum/tickers`)
-//             .then(res => {
-//                 console.log(res.data.tickers[0].last)
-//             let price = res.data.tickers[0].last
-//             document.getElementById('ethereum').innerHTML = `
-//             <p>${price}</p>
-//             `
-
-
-//             })
-//             setInterval(priceeth, 60000);
-// }
-
-// priceeth(priceeth)
+        // function priceeth(priceeth) {
+        //         axios.get(`https://api.coingecko.com/api/v3/coins/ethereum/tickers`)
+        //             .then(res => {
+        //                 console.log(res.data.tickers[0].last)
+        //             let price = res.data.tickers[0].last
+        //             document.getElementById('ethereum').innerHTML = `
+        //             <p>${price}</p>
+        //             `
 
 
-function btcmyFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("btcaddress");
+        //             })
+        //             setInterval(priceeth, 60000);
+        // }
 
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+        // priceeth(priceeth)
 
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
 
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
+        function btcmyFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById("btcaddress");
 
-function ethmyFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("ethaddress");
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
 
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
 
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
+            /* Alert the copied text */
+            alert("Copied the text: " + copyText.value);
+        }
 
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
+        function ethmyFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById("ethaddress");
 
-function nimmyFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("nimaddress");
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
 
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
 
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
+            /* Alert the copied text */
+            alert("Copied the text: " + copyText.value);
+        }
 
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
+        function nimmyFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById("nimaddress");
 
-function rvnmyFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("rvnaddress");
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
 
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
 
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
+            /* Alert the copied text */
+            alert("Copied the text: " + copyText.value);
+        }
 
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
+        function rvnmyFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById("rvnaddress");
 
-function linkmyFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("linkaddress");
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
 
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
 
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
+            /* Alert the copied text */
+            alert("Copied the text: " + copyText.value);
+        }
 
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
+        function linkmyFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById("linkaddress");
 
-function xzcmyFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("xzcaddress");
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
 
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
 
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
+            /* Alert the copied text */
+            alert("Copied the text: " + copyText.value);
+        }
 
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
+        function xzcmyFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById("xzcaddress");
+
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
+
+            /* Alert the copied text */
+            alert("Copied the text: " + copyText.value);
+        }
 
     </script>
 
