@@ -12,6 +12,8 @@
         .nav {
             background-color: aliceblue;
         }
+
+    
     </style>
 </head>
 
@@ -19,34 +21,39 @@
 
 
 
-    <ul class="nav justify-content-center">
+    <ul class="nav  sticky-top justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" href="index.html">GpuMinerSpot.com</a>
+            <a class="nav-link btn btn-outline-primary" href="index.html">GpuMinerSpot.com</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link btn btn-outline-primary" href="wallets.html">Wallets and Exchanges</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="wallets.html">Wallets and Exchanges</a>
+            <a class="nav-link btn btn-outline-primary" href="build.html">Build a Rig</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="build.html">Build a Rig</a>
+            <a class="nav-link btn btn-outline-primary" href="coins.html">Coins to Mine</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="coins.html">Coins to Mine</a>
+            <a class="nav-link btn btn-outline-primary" href="gpu.html">GPU Hashrates</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="gpu.html">GPU Hashrates</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="resources.html">Resources</a>
+            <a class="nav-link btn btn-outline-primary" href="resources.html">Resources</a>
         </li>
         <li class="nav-item">
             <h6 id="date" class="nav-link"></h6>
         </li>
-    </ul>
-
+    <li class="container-fluid" >
+    <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+    <coingecko-coin-price-marquee-widget
+        coin-ids="bitcoin,ethereum,nimiq-2,ravencoin,chainlink,zcoin,ethereum-classic,litecoin" currency="usd"
+        background-color="#ffffff" locale="en"></coingecko-coin-price-marquee-widget>
+    </li>
+</ul>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-6">GpuMinerSpot.com</h1>
-
+      
 
 
             <p class="lead">This is a resource site for cryptocurrency mining with GPUs such as:
@@ -178,7 +185,7 @@
                 11,000% and 55,000% gains. This is only counting them at current (August 2020) market price and not even
                 their all
                 time highs! No stock on Wall Street or other investment asset performed better in the last 10 years!
-<hr>
+                <hr>
             </p>
             </p>
             <div class="container">
@@ -245,7 +252,8 @@
                 each. The components needed besides the GPU can be around $400-$600 as a rough estimate.
                 A rig typically has 6-8 GPUs, you do the math. Are you willing to invest that kind of money with no
                 guarantee that you will make a profit? Also these machines will produce a lot of heat, which you will
-                either have to move or cool.  That also comes with a cost.  The fans are a static sound but very noticeable. Do your living
+                either have to move or cool. That also comes with a cost. The fans are a static sound but very
+                noticeable. Do your living
                 arrangements and co-inhabitors allow for this?
             </p>
         </div>
@@ -255,21 +263,21 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Donations</h1>
-            <p class="lead"> We appreciate any Donations.
+            <p class="lead"> We appreciate any donations.
                 All proceeds will go to fund the site and GPU miner projects so we can share the information with all
                 GPU mining
-                enthusiasts.</p>
-            <p>Bitcoin Address: <br> <input type="text" size="55px" value="3BnTsMRrBBb8kNe1r5FCQvJcVupwTuHRkQ"
+                enthusiasts.  More miners means a more secure network!</p>
+            <p>Bitcoin Address: <br> <input type="text" size="40px" value="3BnTsMRrBBb8kNe1r5FCQvJcVupwTuHRkQ"
                     id="btcaddress"> <button onclick="btcmyFunction()">Copy to clipboard</button></p>
-            <p>Ethereum Address: <br> <input type="text" size="55px" value="0x70bc8950a491C08d21C76A720511B99AC754358a"
+            <p>Ethereum Address: <br> <input type="text" size="40px" value="0x70bc8950a491C08d21C76A720511B99AC754358a"
                     id="ethaddress"> <button onclick="ethmyFunction()">Copy to clipboard</button></p>
-            <p>Nimiq Address: <br> <input type="text" size="55px" value="NQ84 F9QA 1DHV LUCH NYP4 T90F GVVP AXYE P3BV"
+            <p>Nimiq Address: <br> <input type="text" size="40px" value="NQ84 F9QA 1DHV LUCH NYP4 T90F GVVP AXYE P3BV"
                     id="nimaddress"> <button onclick="nimmyFunction()">Copy to clipboard</button></p>
-            <p>Ravencoin Address: <br> <input type="text" size="55px" value="RM6C1LK567t9rePvVRbmPNFi5QoHULSX7q"
+            <p>Ravencoin Address: <br> <input type="text" size="40px" value="RM6C1LK567t9rePvVRbmPNFi5QoHULSX7q"
                     id="rvnaddress"> <button onclick="rvnmyFunction()">Copy to clipboard</button></p>
-            <p>ChainLink Address: <br> <input type="text" size="55px" value="0x54e5143E236bE83813f6f5922F72021EF358e1A3"
+            <p>ChainLink Address: <br> <input type="text" size="40px" value="0x54e5143E236bE83813f6f5922F72021EF358e1A3"
                     id="linkaddress"> <button onclick="linkmyFunction()">Copy to clipboard</button></p>
-            <p>Zcoin Address: <br> <input type="text" size="55px" value="a7ZjYLKcC65WLKWGUoppZfu42C3TDe7RJH"
+            <p>Zcoin Address: <br> <input type="text" size="40px" value="a7ZjYLKcC65WLKWGUoppZfu42C3TDe7RJH"
                     id="xzcaddress"> <button onclick="xzcmyFunction()">Copy to clipboard</button></p>
         </div>
     </div>
@@ -323,7 +331,7 @@
 
 
 
-    <Footer class="nav justify-content-center">
+    <Footer class="nav fixed-bottom justify-content-center">
 
 
 
